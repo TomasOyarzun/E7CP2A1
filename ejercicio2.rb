@@ -13,7 +13,7 @@ puts ''
 print a = nombres.map{|elem| elem.length}
 puts ''
 #5- Utilizando *.map* y *.gsub* eliminar las vocales de todos los nombres.
-print a = nombres.map{|elem| elem.gsub(/[aeiou]/, '')}
+print a = nombres.map{|elem| elem.gsub(/[aeiouAEIOU]/, '')}
 
 
 
