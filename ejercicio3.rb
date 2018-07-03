@@ -38,7 +38,11 @@ puts "¿Que desea hacer?\n1-> Ingresar los datos de una persona\n2-> Editar los 
 		nombre = gets.chomp.strip
 		main_hash.delete(nombre.to_sym)
 	when 4
+		puts main_hash.length
 	when 5
+		a = []
+		a[0] = main_hash.map{|key, value| value[1]}
+		puts a
 	when 6
 	when 7
 	when 8
